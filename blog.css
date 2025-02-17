@@ -1,0 +1,50 @@
+
+
+.blog{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 120px 90px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.blog-header{
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.blog-content{
+    display: flex;
+}
+
+.blog-post{
+    margin: 0 10px;
+    width:350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.blogimg img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.blog-text, .reper{
+    padding: 20px;   
+}
+
+.reper{
+    display: flex;
+    align-items: center;
+}
+.reper .pname{
+    margin-left: 10px;
+}

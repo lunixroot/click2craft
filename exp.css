@@ -1,0 +1,129 @@
+
+.section {
+    background-color: black;
+    color: white;
+}
+
+.projects {
+    text-align: center;
+    line-height: 0px;
+    padding-top: 50px;
+}
+
+.projects h1 {
+    font-size: 40px;
+}
+
+.options ul {
+    list-style: none;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.options .showcase{
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+    font-size: 16px;
+    margin: 0 20px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.options .showcase:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.options .showcase:focus{
+    color: white;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.options .showcase:active{
+    color: white;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.sec {
+    height: 100vh;
+    margin: 30px 0 60px 0;
+    padding: 0;
+}
+
+
+.part {
+    width: 100%;
+    height: 30%;
+    padding-right: 10px;
+}
+
+.part1 {
+    padding-right: 10px;
+    width: 100%;
+    height: 70%;
+    padding-top: 20px;
+}
+
+.part2 {
+    width: 100%;
+    height: 70%;
+    padding-bottom: 20px;
+}
+
+.part2 .row {
+    width: 100%;
+    height: 100%;
+}
+
+.part21 {
+    height: 100%;
+}
+
+.part22 {
+    height: 100%;
+}
+
+.part22 .part23 {
+    height: 50%;
+}
+
+.part22 .part24 {
+    height: 50%;
+    padding-top: 20px;
+}
+
+.part3 {
+    width: 100%;
+    height: 30%;
+}
+
+.part3 .row {
+    width: 100%;
+    height: 100%;
+}
+
+.part31 {
+    height: 100%;
+}
+
+.part32 {
+    height: 100%;
+}
+
+.part,
+.part1,
+.part21,
+.part23,
+.part24,
+.part31,
+.part32, img {
+    overflow: hidden;
+    object-fit:none;
+}

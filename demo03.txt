@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ajax.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+          $("#all").click(function () {
+            $("#experiment2").load("demo.txt", function (responseTxt, statusTxt, xhr) {
+              // if (statusTxt == "success")
+              //     alert("loded successfully");
+              // if (statusTxt == error)
+              //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+            });
+          });
+        });
+        $(document).ready(function () {
+          $("#apps").click(function () {
+            $("#experiment2").load("demo1.txt", function (responseTxt, statusTxt, xhr) {
+              // if (statusTxt == "success")
+              //     alert("loded successfully");
+              // if (statusTxt == error)
+              //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+            });
+          });
+        });
+        $(document).ready(function () {
+          $("#branding").click(function () {
+            $("#experiment2").load("demo2.txt", function (responseTxt, statusTxt, xhr) {
+              // if (statusTxt == "success")
+              //     alert("loded successfully");
+              // if (statusTxt == error)
+              //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+            });
+          });
+        });
+        $(document).ready(function () {
+          $("#photography").click(function () {
+            $("#experiment2").load("demo3.txt", function (responseTxt, statusTxt, xhr) {
+              // if (statusTxt == "success")
+              //     alert("loded successfully");
+              // if (statusTxt == error)
+              //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+            });
+          });
+        });
+        $(document).ready(function () {
+          $("#web").click(function () {
+            $("#experiment2").load("demo4.txt", function (responseTxt, statusTxt, xhr) {
+              // if (statusTxt == "success")
+              //     alert("loded successfully");
+              // if (statusTxt == error)
+              //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+            });
+          });
+        });
+        $(document).ready(function () {
+          $("#infographics").click(function () {
+            $("#experimen2t").load("demo5.txt", function (responseTxt, statusTxt, xhr) {
+              // if (statusTxt == "success")
+              //     alert("loded successfully");
+              // if (statusTxt == error)
+              //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+            });
+          });
+        });
+      </script>
+    
+</head>
+
+<body>
+    <div class="box">
+       
+        <div class="box-item" id="experiment2">
+            <div class="content">
+                <div class="container-box1">
+                    <div class="box1-item">
+                        <img src="/img/1.png" alt="">
+                    </div>
+                    <div class="box1-item">
+                        <img src="/img/2.png" alt="">
+                    </div>
+                </div>
+                <div class="container-box2">
+                    <div class="box2-item upper-box">
+                        <div class="box2-item1">
+                            
+                        </div>
+                        <div class="box2-item2">
+                            <div class="box2-item2-1">
+                                <img src="/img/4.png" alt="">
+                            </div>
+                            <div class="box2-item2-2">
+                                <img src="/img/5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2-item lower-box">
+                        <div class="lower-boxp">
+                            <img src="/img/6.png" alt="">
+                        </div>
+                        <div class="lower-boxp1">
+                            <img src="/img/7.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

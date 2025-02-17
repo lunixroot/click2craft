@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ajax.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $("#all").click(function () {
+        $("#experiment").load("dem.html", function (responseTxt, statusTxt, xhr) {
+          // if (statusTxt == "success")
+          //     alert("loded successfully");
+          // if (statusTxt == error)
+          //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+        });
+      });
+    });
+    $(document).ready(function () {
+      $("#apps").click(function () {
+        $("#experiment").load("demo1.txt", function (responseTxt, statusTxt, xhr) {
+          // if (statusTxt == "success")
+          //     alert("loded successfully");
+          // if (statusTxt == error)
+          //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+        });
+      });
+    });
+    $(document).ready(function () {
+      $("#branding").click(function () {
+        $("#experiment").load("demo2.txt", function (responseTxt, statusTxt, xhr) {
+          // if (statusTxt == "success")
+          //     alert("loded successfully");
+          // if (statusTxt == error)
+          //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+        });
+      });
+    });
+    $(document).ready(function () {
+      $("#photography").click(function () {
+        $("#experiment").load("demo3.txt", function (responseTxt, statusTxt, xhr) {
+          // if (statusTxt == "success")
+          //     alert("loded successfully");
+          // if (statusTxt == error)
+          //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+        });
+      });
+    });
+    $(document).ready(function () {
+      $("#web").click(function () {
+        $("#experiment").load("demo4.txt", function (responseTxt, statusTxt, xhr) {
+          // if (statusTxt == "success")
+          //     alert("loded successfully");
+          // if (statusTxt == error)
+          //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+        });
+      });
+    });
+    $(document).ready(function () {
+      $("#infographics").click(function () {
+        $("#experiment").load("demo5.txt", function (responseTxt, statusTxt, xhr) {
+          // if (statusTxt == "success")
+          //     alert("loded successfully");
+          // if (statusTxt == error)
+          //     alert("error: " + xhrStatus + ": " + xhrStatusrText);
+        });
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+    <div class="box">
+
+        <div class=" projects">
+            <h3>RECENT PROJECTS</h3><br>
+            <h1>WORK SHOWCASE</h1>
+        </div>
+        <div class="options">
+            <ul>
+                <li><a class="showcase" id="all">ALL</a></li>
+                <li><a class="showcase" id="apps">APPS</a></li>
+                <li><a class="showcase" id="branding">BRANDING</a></li>
+                <li><a class="showcase" id="photography">PHOTOGRAPHY</a></li>
+                <li><a class="showcase" id="web">WEB DESIGN</a></li>
+                <li><a class="showcase" id="infographics">INFOGRAPHICS</a></li>
+            </ul>
+        </div>
+        <!-- col-lg-3 col-md-6 col-sm-12 -->
+        <div class=" box-item" id="experiment">
+            <div class="container-box1 sec sec-1">
+                <div class="part box1-item">
+                    <img src="/img/1.png" alt="" height="100%" width="100%">
+                </div>
+                <div class="part1 box1-item">
+                    <img src="/img/2.png" alt="" height="100%" width="100%">
+                </div>
+            </div>
+            <div class="container-box2 sec sec-2">
+                <div class="part2 box2-item upper-box">
+
+                    <div class="box2-item1 part21">
+                        <img src="/img/3.png" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="box2-item2 part22">
+                        <div class="part23 box2-item2-1">
+                            <img src="/img/4.png" alt="" height="100%" width="100%">
+                        </div>
+                        <div class="part24 box2-item2-2">
+                            <img src="/img/5.png" alt="" height="100%" width="100%">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="part3 box2-item lower-box">
+
+                    <div class="part31 lower-boxp">
+                        <img src="/img/6.png" alt="" height="100%" width="100%">
+                    </div>
+                    <div class="part32 lower-boxp1">
+                        <img src="/img/7.png" alt="" height="100%" width="100%">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

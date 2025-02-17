@@ -1,0 +1,220 @@
+
+
+/* animation box */
+.page{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.animation{
+    overflow: hidden;
+    width: 85%;
+}
+.aniani{
+    overflow: hidden;
+}
+
+.banner2{
+    width: 100%;
+    min-height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #6222cc;
+    position: relative;
+    position: relative;
+}
+
+/* 2nd box animation */
+.abbox4{
+    position: absolute;
+    top: 130px;
+    right: 260px;
+    width: 195px;
+    height: 360px;
+    background-image: linear-gradient(#ffcc00, #F7484D, #4971F7);
+    mix-blend-mode: screen;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    animation: boxmove1 9s linear 1000ms infinite;
+}
+.abbox44{
+    position: absolute;
+    top: 130px;
+    right: 260px;
+    width: 195px;
+    height: 360px;
+    background-color:black;
+    mix-blend-mode: soft-light;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    animation: boxmove1 9s linear 1000ms infinite;
+}
+
+.abbox5{
+    position: absolute;
+    top: -180px;
+    right: 160px;
+    width: 195px;
+    height: 360px;
+    background-image: linear-gradient(#ffcc00, #F7484D, #4971F7);
+    mix-blend-mode: screen;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    animation: boxmove1 9s linear 0ms infinite;
+}
+
+.abbox55{
+    position: absolute;
+    top: -180px;
+    right: 160px;
+    width: 195px;
+    height: 360px;
+    background-color:black;
+    mix-blend-mode: soft-light;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    animation: boxmove1 9s linear 0ms infinite;
+}
+
+.abbox6{
+    position: absolute;
+    top: -60px;
+    right: -150px;
+    width: 195px;
+    height: 360px;
+    background-color:black;
+    mix-blend-mode:soft-light;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    animation: boxmove1 9s linear 1500ms infinite;
+}
+
+
+.abbox7{
+    position: absolute;
+    top: 160px;
+    left: 14px;
+    width: 195px;
+    height: 360px;
+    background-image: linear-gradient(#ffcc00, #F7484D, #4971F7);
+    mix-blend-mode: screen;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    animation: boxmove1 9s linear 0ms infinite;
+}
+.abbox77{
+    position: absolute;
+    top: 160px;
+    left: 14px;
+    width: 195px;
+    height: 360px;
+    background-color:black;
+    mix-blend-mode: soft-light;
+    border-radius: 30px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    animation: boxmove1 9s linear 0ms infinite;
+}
+
+@keyframes boxmove1{
+    0% {
+        transform: rotate(-45deg) translateY(0px);
+    }
+
+    25% {
+        transform: rotate(-43deg) translateY(-20px);
+    }
+    50% {
+        
+        transform: rotate(-45deg) translateY(-40px);
+    }
+    75%{
+        transform: rotate(-43deg) translateY(-20px);
+    }
+
+    100%{
+        
+        transform: rotate(-45deg) translateY(0px);
+    }
+}
+
+.banner1 {
+    width: 100%;
+}
+
+.ban1 {
+    position: relative;
+    width: 70%;
+    min-height: 130px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ban1 h1 {
+    font-size: 38px;
+}
+
+.ban2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 76px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.ban2 button {
+    width: 75%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* animation box end */
+
+.footer1{
+    width: 100%;
+    background-color: #151D38;
+    height: 150px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contbox{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.socialbox{
+    display: flex;
+}
+
+.social{
+    padding: 10px;
+}

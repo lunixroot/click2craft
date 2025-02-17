@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 50px 0;
+}
+.box .showcase{
+    text-align: center;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.showcase:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+#experiments{
+    width: 100%;
+}
+
+.box-item {
+    width: 100%;
+    min-height: 600px;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.content{
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    box-sizing: border-box;
+    /* padding: 80px; */
+}
+.container-box1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.container-box1 .box1-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+.container-box2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-left: 10px; */
+    box-sizing: border-box;
+}
+
+.upper-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.box2-item1{
+    width: 100%;
+    /* height: 100%; */
+    padding-right: 10px;
+}
+.box2-item1 , img{
+object-fit: cover;
+}
+.box2-item2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.box2-item2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box2-item2-1{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.box2-item2-1 img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.box2-item2-2{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.box2-item2-2 img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.lower-box {
+    width: 100%;
+    display: flex;
+    align-items: center;    
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.lower-boxp {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.lower-boxp img{
+    object-fit: cover;
+}
+.lower-boxp1{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.lower-boxp1 img {
+    object-fit: cover;
+}
+
+@media(max-width:1300px){
+    .content{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-box1{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .box1-item{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .container-box1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+    .container-box2{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .upper-box{
+        align-items:start;
+        padding: 20px;
+        flex-direction: row;
+        height: 400px;
+    }
+    .box2-item1 img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .box2-item2{
+        display: flex;
+        flex-direction: row;
+        height: 400px;
+        width: 100%;
+        box-sizing: border-box;
+        object-fit: cover;
+        object-position: center;
+    }
+    .box2-item2-1{
+        padding-right: 10px;
+        height: 100%;
+        padding-bottom: 0;
+    }
+    .box2-item2-2{
+        height: 100%;
+        padding-top: 0;
+    }
+    .lower-box{
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        height: 400px;
+
+    }
+    .lower-boxp{
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .lower-boxp img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .lower-boxp1{
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .lower-boxp1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+
+}
+
+@media(max-width:768px){
+    .container-box1{
+        flex-direction: column;
+        padding: 0 40px;
+        height: 800px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .box1-item img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+
+    }
+    .container-box2{
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .upper-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .box2-item1{
+        padding: 0;
+    }
+    .box2-item2{
+        width: 100%;
+        height: 800px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+        box-sizing: border-box;
+
+    }
+    .box2-item2-1{
+        padding-right:0;
+        padding-bottom: 20px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .box2-item2-1 img{ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+    .box2-item2-2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .lower-box{
+        padding-top: 10px;
+        width: 100%;
+        height: 800px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .lower-boxp{
+        width: 100%;    
+        height: 400px;
+        padding: 0;
+    }
+    .lower-boxp1{
+        padding: 0;
+        padding-top: 20px;
+        width: 100%;
+        height: 400px;
+    }
+}
