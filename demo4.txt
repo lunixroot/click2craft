@@ -19,23 +19,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-12 sec sec-1">
-                    <div class="part"><img src="/img/1.png" alt="" height="100%" width="100%"></div>
-                    <div class="part1"><img src="/img/2.png" alt="" height="100%" width="100%"></div>
+                    <div class="part"><img src="img/1.png" alt="" height="100%" width="100%"></div>
+                    <div class="part1"><img src="img/2.png" alt="" height="100%" width="100%"></div>
                 </div>
                 <div class="col-lg-9 col-md-12 sec sec-2">
                     <div class="part2">
                         <div class="row">
-                            <div class="col-8 part21"><img src="/img/3.png" alt="" height="100%" width="100%"></div>
+                            <div class="col-8 part21"><img src="img/3.png" alt="" height="100%" width="100%"></div>
                             <div class="col-4 part22">
-                                <div class="part23"><img src="/img/4.png" alt="" height="100%" width="100%"></div>
-                                <div class="part24"><img src="/img/5.png" alt="" height="100%" width="100%"></div>
+                                <div class="part23"><img src="img/4.png" alt="" height="100%" width="100%"></div>
+                                <div class="part24"><img src="img/5.png" alt="" height="100%" width="100%"></div>
                             </div>
                         </div>
                     </div>
                     <div class="part3">
                         <div class="row">
                             <div class="col-4 part31"></div>
-                            <div class="col-8 part32"><img src="/img/7.png" alt="" height="100%" width="100%"></div>
+                            <div class="col-8 part32"><img src="img/7.png" alt="" height="100%" width="100%"></div>
                         </div>
                     </div>
                 </div>
