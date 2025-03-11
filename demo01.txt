@@ -82,29 +82,29 @@
                         
                     </div>
                     <div class="box1-item">
-                        <img src="/img/2.png" alt="">
+                        <img src="img/2.png" alt="">
                     </div>
                 </div>
                 <div class="container-box2">
                     <div class="box2-item upper-box">
                         <div class="box2-item1">
-                            <img src="/img/3.png" alt="">
+                            <img src="img/3.png" alt="">
                         </div>
                         <div class="box2-item2">
                             <div class="box2-item2-1">
-                                <img src="/img/4.png" alt="">
+                                <img src="img/4.png" alt="">
                             </div>
                             <div class="box2-item2-2">
-                                <img src="/img/5.png" alt="">
+                                <img src="img/5.png" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="box2-item lower-box">
                         <div class="lower-boxp">
-                            <img src="/img/6.png" alt="">
+                            <img src="img/6.png" alt="">
                         </div>
                         <div class="lower-boxp1">
-                            <img src="/img/7.png" alt="">
+                            <img src="img/7.png" alt="">
                         </div>
                     </div>
                 </div>
